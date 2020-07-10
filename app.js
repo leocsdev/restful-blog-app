@@ -166,5 +166,5 @@ app.delete("/blogs/:id", function (req, res) {
 SERVER 
 ******************************************************************************/
 app.listen(3000, function () {
-  console.log("restful blog app server has started...");
+  console.log("\n\nRestful Blog App server has started at port 3000...\n\n");
 });

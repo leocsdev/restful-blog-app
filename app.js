@@ -44,7 +44,7 @@ var blogSchema = new mongoose.Schema({
 });
 
 // use blogschema
-var Blog = mongoose.model("Campground", blogSchema);
+var Blog = mongoose.model("Blogs", blogSchema);
 
 // // create dummy data to save on db
 // Blog.create(
